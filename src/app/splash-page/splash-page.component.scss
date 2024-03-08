@@ -13,19 +13,19 @@
 .group {
   background-color: hsla(var(--ig-primary-500));
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   align-content: flex-start;
-  height: 1262px;
+  height: 1196px;
   min-width: 50px;
   min-height: 50px;
-  max-height: 1262px;
+  max-height: 1196px;
 }
 .row-layout {
   display: flex;
 }
 .group_1 {
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   align-content: flex-start;
 }
 .group_2 {
@@ -38,11 +38,6 @@
   min-height: 50px;
   max-width: 1438px;
   max-height: 267px;
-}
-.group_3 {
-  justify-content: center;
-  align-items: center;
-  align-content: flex-start;
 }
 .image {
   object-fit: cover;
@@ -63,6 +58,7 @@
 }
 .button {
   --igx-button-foreground: white;
+  margin: 0 0 24px;
   width: 134px;
   height: max-content;
   min-width: 134px;
