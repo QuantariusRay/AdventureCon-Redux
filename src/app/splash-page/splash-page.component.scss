@@ -1,0 +1,70 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  background-color: hsla(var(--ig-primary-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 1262px;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 1262px;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.group_2 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  width: 1438px;
+  height: 267px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 1438px;
+  max-height: 267px;
+}
+.group_3 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+.image {
+  object-fit: cover;
+  width: 530px;
+  height: 547px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 530px;
+  max-height: 547px;
+  flex-shrink: 0;
+}
+.text {
+  text-align: center;
+  width: 564px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 564px;
+}
+.button {
+  --igx-button-foreground: white;
+  width: 134px;
+  height: max-content;
+  min-width: 134px;
+  max-width: 134px;
+}
