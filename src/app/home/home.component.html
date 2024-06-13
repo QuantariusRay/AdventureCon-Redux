@@ -1,0 +1,66 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1>Northwest Arkansas's Board Game Destination</h1>
+    <p>
+      Join us for the three best days of board and tabletop gaming in Northwest Arkansas!
+    </p>
+<!--    <div class="buttons">-->
+<!--      <button class="btn yellow">Tips for AdventureCon</button>-->
+<!--      <button class="btn blue">Buy Badges</button>-->
+<!--      <button class="btn blue">Volunteers</button>-->
+<!--    </div>-->
+  </div>
+</section>
+
+<main>
+  <section class="intro">
+    <h2>Come discover the world of Board gaming!</h2>
+    <p>
+      At AdventureCon, the experience extends far beyond the game tables. In addition to exploring the latest releases and timeless classics,
+      attendees can participate in a vibrant exchange culture at our trade table, where games find new homes and new adventures await...
+    </p>
+  </section>
+
+  <app-announcement/>
+
+  <section class="features">
+    <app-card [icon]="dice" cardTitle="Game Library" class="reveal">
+      <p>Over 250 games!</p>
+
+      <div class="spacer"></div>
+      <a href="https://tabletop.events/conventions/adventurecon/library"
+         class="card-btn blue"
+         target="_blank">View Library</a>
+    </app-card>
+
+    <app-card [icon]="award" cardTitle="Play to Wins" class="reveal">
+      <div class="spacer"></div>
+      <a [routerLink]="['/play-to-win']" class="card-btn blue">Rules</a>
+    </app-card>
+
+    <app-card [icon]="hotel" cardTitle="Venue and Location" class="reveal">
+      <a href="https://www.marriott.com/en-us/hotels/rogfp-four-points-bentonville/overview/"
+         class="card-link"
+         target="_blank">
+        Four Points by Sheraton Bentonville
+      </a>
+
+      <div class="spacer"></div>
+      <a class="card-btn blue" [routerLink]="['/hotel-info']">Hotel Information</a>
+    </app-card>
+
+    <app-card [icon]="d20" cardTitle="RPGs" class="reveal"></app-card>
+
+    <app-card [icon]="trophy" cardTitle="Tournaments" class="reveal">
+      <div class="spacer"></div>
+      <a class="card-btn blue" [routerLink]="['/tournaments']">Tournament Rules</a>
+    </app-card>
+
+    <app-card cardTitle="About Us" class="reveal">
+      <a class="card-btn blue" [routerLink]="['/meeple-academy']">Meeple Academy</a>
+      <p>AdventureCon Policies</p>
+      <a class="card-btn blue" [routerLink]="['/policies']">Policies</a>
+    </app-card>
+  </section>
+  <app-sponsors/>
+</main>

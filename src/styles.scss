@@ -2,32 +2,47 @@
 
 // Standard CSS normalize, comment out if not required or using a different module
 @use "minireset.css/minireset";
-@use "@infragistics/igniteui-angular/theming" as *;
-
-@include core();
-@include typography($font-family: "Roboto Slab");
-
-$custom-palette: palette(
-  $primary: #2778C5,
-  $secondary: #EFA021,
-  $surface: #222222);
-@include theme($palette: $custom-palette, $schema: $dark-material-schema, $elevation: false, $roundness: 0.5);
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
 body {
-  background: hsla(var(--ig-surface-500));
-  color: var(--ig-surface-500-contrast);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  line-height: 1.7em;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
 }
 
-html, body {
+body, html, app-root {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
-.ig-typography {
-  h1, h2, h3, h4, h5, h6, p, .ig-typography__body-1 {
-    margin: 0;
-  }
+h1 {
+  font-size: 2rem;
 }
 
-.outer-wrapper > *:not(router-outlet) {
-  width: 100%;
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  padding-bottom: .5rem;
+}
+
+/*===== Reveal Elements CSS =======*/
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s ease;
+  transition-property: transform, opacity;
+
+  &.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
