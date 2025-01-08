@@ -10,6 +10,30 @@ import {EmailService} from "../email.service";
   ],
   selector: 'app-announcement',
   template: `
+    <section class="sponsors">
+      <h2>2025 Sponsors</h2>
+
+      <h3>Silver Sponsors</h3>
+      <div class="sponsor-list">
+        <a href="https://www.allplay.com" ><img src="assets/sponsors/allplay.png" alt="Allplay"/></a>
+        <a href="https://www.nx.dev/company"><img src="/assets/sponsors/nx.png" alt="NX Devtools"/></a>
+        <a href="https://www.destinationrogers.com/"><img src="assets/sponsors/destination-rogers.png" alt="Destination Rogers" /></a>
+      </div>
+
+      <h3>Publisher Sponsors</h3>
+      <div class="sponsor-list">
+        <a href="https//www.luckyduckgames.com/en"><img src="assets/sponsors/lucky-duck.png" alt="Lucky Duck Games" /></a>
+        <a href="https://www.catalystgamelabs.com/"><img src="assets/sponsors/catalyst-logo.png" alt="Catalyst Labs" /></a>
+        <a href="https://www.funko.com/"><img src="assets/sponsors/funko.png" alt="Funko" /></a>
+        <a href="https://www.riograndegames.com/"><img src="assets/sponsors/rio-grande.png" alt="Rio Grande Games" /></a>
+      </div>
+
+      <h3>Food & Beverage Sponsors</h3>
+      <div class="sponsor-list">
+        <a href="https//www.drinkcirkul.com"><img src="assets/sponsors/cirkul.png" alt="Cirkul" /></a>
+      </div>
+    </section>
+
     <section class="announcement">
       <h2>Ready for AdventureCon 2025?</h2>
 
@@ -60,11 +84,52 @@ import {EmailService} from "../email.service";
     </section>
   `,
   styles: `
+    :host {
+      display: block;
+      background-color: #000;
+      color: #fff;
+      padding: 50px 0;
+
+      .sponsors {
+        color: #fff;
+
+        h2 {
+          font-size: 32px;
+          font-weight: 700;
+        }
+
+        h3 {
+          margin: 12px 0;
+          font-size: 28px;
+          font-weight: 500;
+        }
+
+        .sponsor-list {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+
+          img {
+            max-width: 100px;
+            max-height: 200px;
+
+            @media (min-width: 768px) {
+              max-width: 150px;
+              max-height: 250px;
+            }
+
+          }
+        }
+      }
+    }
+
     .announcement {
+      margin-top: 32px;
       background-color: #000;
       color: #fff;
       text-align: center;
-      padding: 50px 0;
     }
 
     .announcement h2 {

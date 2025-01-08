@@ -11,6 +11,7 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
       <div class="rules-content">
         <p><strong>Friday: 9am-10pm</strong></p>
         <p><strong>Saturday: 9am-10pm</strong></p>
+        <p><strong>Sunday: 9am-12pm</strong></p>
         <ul>
           <li>Checkout 1 game at a time per badge</li>
           <li>4 hours max checkout time</li>
@@ -19,9 +20,9 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
           <li>Only one entry per game per person</li>
           <li>Each badge can only win 1 game</li>
         </ul>
-        <p><strong>Winners posted on Sunday at 5:00 PM near the library.</strong></p>
+        <p><strong>Winners posted on Sunday at 2:00 PM near the library.</strong></p>
         <p>You must be present to win.</p>
-        <p>All games not claimed by 5:30 PM will be given to whomever is present at that time that entered to win. We will randomize the list of entries and give it to the first person present after 5:30 PM.</p>
+        <p>All games not claimed by 3:00 PM will be given to whomever is present at that time that entered to win. We will randomize the list of entries and give it to the first person present after 3:30 PM.</p>
         <p>Winners can also be found online at: <a href="https://www.adventure-con.com/winners">adventure-con.com/winners</a></p>
       </div>
     </section>
