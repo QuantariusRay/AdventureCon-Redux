@@ -23,6 +23,7 @@ import { RouterLink } from '@angular/router';
             <ul>
               <li><a [routerLink]="['/']">Home</a></li>
               <li><a [routerLink]="['/meeple-academy']">About</a></li>
+              <li><a [routerLink]="['/pricing']">Pricing</a></li>
               <li><a href="#">Events</a></li>
               <li><a [routerLink]="['/contact-us']">Contact</a></li>
             </ul>
@@ -32,6 +33,7 @@ import { RouterLink } from '@angular/router';
           <ul>
             <li><a [routerLink]="['/']">Home</a></li>
             <li><a [routerLink]="['/meeple-academy']">About</a></li>
+            <li><a [routerLink]="['/pricing']">Pricing</a></li>
             <li><a href="#">Events</a></li>
             <li><a [routerLink]="['/contact-us']">Contact</a></li>
           </ul>

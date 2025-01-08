@@ -6,7 +6,7 @@ import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
   standalone: true,
   template: `
     <section class="sponsors-section">
-      <h2>Our Sponsors</h2>
+      <h2>2024 Sponsors</h2>
       <div class="sponsors-carousel">
         <owl-carousel-o [options]="customOptions">
           @for(sponsor of sponsors; track sponsor) {

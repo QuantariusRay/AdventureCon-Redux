@@ -2,13 +2,13 @@
   <div class="hero-content">
     <h1>Northwest Arkansas's Board Game Destination</h1>
     <p>
-      Join us for the three best days of board and tabletop gaming in Northwest Arkansas!
+      Join us for the three best days of board and tabletop gaming in Northwest Arkansas July 11 - 13th at the Embassy Suites in Rogers!
     </p>
-<!--    <div class="buttons">-->
-<!--      <button class="btn yellow">Tips for AdventureCon</button>-->
-<!--      <button class="btn blue">Buy Badges</button>-->
-<!--      <button class="btn blue">Volunteers</button>-->
-<!--    </div>-->
+    <div class="buttons">
+      <a class="btn blue" href="https://tabletop.events/conventions/adventurecon-2025/badges" target="_blank">Buy Badges</a>
+      <a class="btn blue" href="https://tabletop.events/conventions/adventurecon-2025/events" target="_blank">Events</a>
+      <a class="btn blue" href="https://tabletop.events/conventions/adventurecon-2025/volunteers">Volunteers</a>
+    </div>
   </div>
 </section>
 
@@ -21,14 +21,12 @@
     </p>
   </section>
 
-  <app-announcement/>
-
   <section class="features">
     <app-card [icon]="dice" cardTitle="Game Library" class="reveal">
       <p>Over 250 games!</p>
 
       <div class="spacer"></div>
-      <a href="https://tabletop.events/conventions/adventurecon/library"
+      <a href="https://tabletop.events/conventions/adventurecon-2025/library"
          class="card-btn blue"
          target="_blank">View Library</a>
     </app-card>
@@ -39,10 +37,10 @@
     </app-card>
 
     <app-card [icon]="hotel" cardTitle="Venue and Location" class="reveal">
-      <a href="https://www.marriott.com/en-us/hotels/rogfp-four-points-bentonville/overview/"
+      <a href="https://www.hilton.com/en/hotels/xnaeses-embassy-suites-northwest-arkansas-hotel-spa-and-convention-center/"
          class="card-link"
          target="_blank">
-        Four Points by Sheraton Bentonville
+        Embassy Suites Northwest Arkansas
       </a>
 
       <div class="spacer"></div>
@@ -62,5 +60,8 @@
       <a class="card-btn blue" [routerLink]="['/policies']">Policies</a>
     </app-card>
   </section>
+
+  <app-announcement/>
+
   <app-sponsors/>
 </main>

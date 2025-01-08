@@ -9,7 +9,7 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
     <section class="play-to-win-rules">
       <h1>Play to Win Rules</h1>
       <div class="rules-content">
-        <p><strong>Friday: 10am-10pm</strong></p>
+        <p><strong>Friday: 9am-10pm</strong></p>
         <p><strong>Saturday: 9am-10pm</strong></p>
         <ul>
           <li>Checkout 1 game at a time per badge</li>

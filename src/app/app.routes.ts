@@ -9,6 +9,7 @@ import { PoliciesComponent } from './policy/policies.component';
 import { PlayToWinComponent } from './playToWin/play-to-win.component';
 import { WinnersComponent } from './winners/winners.component';
 import { MeepleAcademyComponent } from './meeple-academy/meeple-academy.component';
+import {PricingPageComponent} from "./pricing/pricing-page.component";
 
 export const routes: Routes = [
 	{ path: '', component: HomeComponent, data: { text: 'Home Page' } },
@@ -19,6 +20,7 @@ export const routes: Routes = [
   { path: 'play-to-win', component: PlayToWinComponent, data: { text: 'Play To Win' } },
   { path: 'meeple-academy', component: MeepleAcademyComponent, data: { text: 'Meeple Academy' } },
   { path: 'winners', component: WinnersComponent, data: { text: 'Winners' } },
+  { path: 'pricing', component: PricingPageComponent, data: { text: 'Pricing' }},
   { path: 'error', component: UncaughtErrorComponent },
   { path: '**', component: PageNotFoundComponent } // must always be last
 ];
