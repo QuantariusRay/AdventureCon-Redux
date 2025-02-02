@@ -20,12 +20,27 @@ import {EmailService} from "../email.service";
         <a href="https://www.destinationrogers.com/"><img src="assets/sponsors/destination-rogers.png" alt="Destination Rogers" /></a>
       </div>
 
+      <h3>Bronze Sponsors</h3>
+      <div class="sponsor-list">
+        <a href="https://www.facebook.com/thesluyterrealtors/"><img src="assets/sponsors/Sluyter-Realtors.png" alt="Sluyter Realty"/></a>
+      </div>
+
+      <h3>Partner Sponsors</h3>
+      <div class="sponsor-list">
+        <a href="https://www.games-explosion.com/"><img src="assets/sponsors/games-explosion.png" alt="Games Explosion"/></a>
+      </div>
+
       <h3>Publisher Sponsors</h3>
       <div class="sponsor-list">
         <a href="https//www.luckyduckgames.com/en"><img src="assets/sponsors/lucky-duck.png" alt="Lucky Duck Games" /></a>
         <a href="https://www.catalystgamelabs.com/"><img src="assets/sponsors/catalyst-logo.png" alt="Catalyst Labs" /></a>
         <a href="https://www.funko.com/"><img src="assets/sponsors/funko.png" alt="Funko" /></a>
+        <a href="https://www.gamelyngames.com/"><img src="assets/sponsors/gamelyn.png" alt="Gamelyn Games" /></a>
         <a href="https://www.riograndegames.com/"><img src="assets/sponsors/rio-grande.png" alt="Rio Grande Games" /></a>
+        <a href="https://rebirthboardgames.com/"><img src="assets/sponsors/rebirth-games.png" alt="Rebirth Board Games" /></a>
+        <a href="https://slugfestgames.com/"><img src="assets/sponsors/slugfest.png" alt="Slugfest Games" /></a>
+        <a href="https://thunderworksgames.com/"><img src="assets/sponsors/thunderworks.png" alt="Thunderworks Games" /></a>
+        <a href="https://www.maydaygames.com/"><img src="assets/sponsors/mayday.png" alt="Mayday Games" /></a>
       </div>
 
       <h3>Food & Beverage Sponsors</h3>
@@ -92,6 +107,11 @@ import {EmailService} from "../email.service";
 
       .sponsors {
         color: #fff;
+
+        @media (min-width: 768px) {
+          max-width: 50%;
+          margin: auto;
+        }
 
         h2 {
           font-size: 32px;
