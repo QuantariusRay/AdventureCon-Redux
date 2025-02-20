@@ -41,6 +41,9 @@ import {EmailService} from "../email.service";
         <a href="https://slugfestgames.com/"><img src="assets/sponsors/slugfest.png" alt="Slugfest Games" /></a>
         <a href="https://thunderworksgames.com/"><img src="assets/sponsors/thunderworks.png" alt="Thunderworks Games" /></a>
         <a href="https://www.maydaygames.com/"><img src="assets/sponsors/mayday.png" alt="Mayday Games" /></a>
+        <a href="https://www.binarycocoa.com/"><img src="assets/sponsors/binary-cocoa.png" alt="Binary Cocoa" /></a>
+        <a href="https://www.pocketsamurai.net/"><img src="assets/sponsors/questing-gentlemen.jpg" alt="Questing Gentlemen" /></a>
+        <a href="https://mcdavittpublishing.com/"><img src="assets/sponsors/mcdavitt-publishing.png" alt="McDavitt Publishing" /></a>
       </div>
 
       <h3>Food & Beverage Sponsors</h3>

@@ -1,4 +1,4 @@
-import {Component, OnInit} from "@angular/core";
+import {Component} from "@angular/core";
 
 @Component({
   standalone: true,
@@ -46,7 +46,6 @@ import {Component, OnInit} from "@angular/core";
               <li>Access to over 500 games</li>
               <li>Over 75 Play-to-Win Games</li>
               <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-              <li>Early Event Selection</li>
               <li>Vendor Hall access</li>
               <li>AdventureCon merch store</li>
             </ul>
@@ -67,7 +66,6 @@ import {Component, OnInit} from "@angular/core";
               <li>Access to over 500 games</li>
               <li>Over 75 Play-to-Win Games</li>
               <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-              <li>Early Event Selection</li>
               <li>Vendor Hall access</li>
               <li>AdventureCon merch store</li>
             </ul>
@@ -88,12 +86,55 @@ import {Component, OnInit} from "@angular/core";
               <li>Access to over 500 games</li>
               <li>Over 75 Play-to-Win Games</li>
               <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-              <li>Early Event Selection</li>
               <li>Vendor Hall access</li>
               <li>AdventureCon merch store</li>
             </ul>
           </div>
         </div>
+    </div>
+
+    <h2>Kids Badges</h2>
+    <div class="kids cards">
+      <div class="price-card">
+        <div class="price-header">
+          <h3>Kids Weekend Badge</h3>
+          <span>3 Day Admission</span>
+        </div>
+        <div class="price-amount">
+          <span class="price">$30</span>
+          <span class="caption">Ages 13 and Under</span>
+        </div>
+        <div class="price-perks">
+          <ul class="perk-list">
+            <li>Special VIG swag bag (enamel pin, board games, surprise freebies)</li>
+            <li>Access to over 500 games</li>
+            <li>Over 75 Play-to-Win Games</li>
+            <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
+            <li>Vendor Hall access</li>
+            <li>AdventureCon merch store</li>
+          </ul>
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="price-header">
+          <h3>Kids Single Day Badge</h3>
+          <span>1 Day Admission</span>
+        </div>
+        <div class="price-amount">
+          <span class="price">$10</span>
+          <span class="caption">Ages 13 and Under</span>
+        </div>
+        <div class="price-perks">
+          <ul class="perk-list">
+            <li>Special VIG swag bag (enamel pin, board games, surprise freebies)</li>
+            <li>Access to over 500 games</li>
+            <li>Over 75 Play-to-Win Games</li>
+            <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
+            <li>Vendor Hall access</li>
+            <li>AdventureCon merch store</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <h2>Warhammer Tournament Badges</h2>
@@ -115,7 +156,6 @@ import {Component, OnInit} from "@angular/core";
             <li>Access to over 500 games</li>
             <li>Over 75 Play-to-Win Games</li>
             <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-            <li>Early Event Selection</li>
             <li>Vendor Hall access</li>
             <li>AdventureCon merch store</li>
           </ul>
@@ -153,13 +193,25 @@ import {Component, OnInit} from "@angular/core";
       padding-top: 2rem;
     }
 
+    h2 {
+      margin: 1rem 0;
+    }
+
     .cards {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
 
-      &.warhammer {
+      &.warhammer,
+      &.kids{
         justify-content: space-evenly;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
       }
     }
 

@@ -5,7 +5,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { AnnouncementComponent } from '../announcement/announcement.component';
 import { CardComponent } from '../cards/card.component';
-import { faAward, faDice, faDiceD20, faHotel, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { faAward, faDice, faDiceD20, faDragon, faHotel, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { RouterLink } from '@angular/router';
 import { SponsorsSectionComponent } from '../sponsors/sponsors-section.component';
 
@@ -29,6 +29,7 @@ export class HomeComponent implements OnInit {
   public hotel = faHotel;
   public d20 = faDiceD20;
   public trophy = faTrophy;
+  public dragon = faDragon;
 
   constructor(private readonly emailService: EmailService) {
   }

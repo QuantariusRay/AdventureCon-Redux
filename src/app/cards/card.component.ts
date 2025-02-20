@@ -12,7 +12,7 @@ import { FaIconComponent } from '@fortawesome/angular-fontawesome';
         </div>
       } @else {
         <div>
-          <img src="assets/meeple-academy-black.png">
+          <img src="assets/meeple-academy-logo.png">
         </div>
       }
       <h3>{{ cardTitle() }}</h3>
@@ -29,6 +29,7 @@ import { FaIconComponent } from '@fortawesome/angular-fontawesome';
       width: 300px;
       text-align: center;
       margin-bottom: 20px;
+      min-height: 20rem;
     }
 
     .card h3 {

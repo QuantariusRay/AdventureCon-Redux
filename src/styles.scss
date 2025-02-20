@@ -33,6 +33,49 @@ p {
   padding-bottom: .5rem;
 }
 
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.card-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 4px 0;
+  border: none;
+  min-width: 12rem;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.btn.blue, .card-btn.blue {
+  background-color: rgb(39, 120, 196);
+  color: white;
+}
+
+.btn.secondary, .card-btn.secondary {
+  background-color: white;
+  border: 1px solid rgb(39, 120, 196);
+  color: rgb(39, 120, 196);
+}
+
 /*===== Reveal Elements CSS =======*/
 .reveal {
   position: relative;

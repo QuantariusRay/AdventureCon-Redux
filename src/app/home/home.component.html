@@ -51,10 +51,16 @@
 
     <app-card [icon]="trophy" cardTitle="Tournaments" class="reveal">
       <div class="spacer"></div>
-      <a class="card-btn blue" [routerLink]="['/tournaments']">Tournament Rules</a>
+      <a class="card-btn blue" [routerLink]="['/tournaments']">Meeple Academy Tournaments</a>
+      <a class="card-btn secondary" [routerLink]="['/tournament-rules']">Tournament Rules</a>
     </app-card>
 
-    <app-card cardTitle="About Us" class="reveal">
+    <app-card [icon]="dragon" cardTitle="Warhammer" class="reveal">
+      <div class="spacer"></div>
+      <a class="card-btn blue" [routerLink]="['/warhammer']">Tournaments</a>
+    </app-card>
+
+    <app-card cardTitle="About Us" class="meeple-academy reveal">
       <a class="card-btn blue" [routerLink]="['/meeple-academy']">Meeple Academy</a>
       <p>AdventureCon Policies</p>
       <a class="card-btn blue" [routerLink]="['/policies']">Policies</a>

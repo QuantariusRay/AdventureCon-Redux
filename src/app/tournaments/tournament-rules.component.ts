@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { PageHeaderComponent } from '../page-header/page-header.component';
 
 @Component({
-  selector: 'app-tournaments',
+  selector: 'app-tournament-rules',
   standalone: true,
   template: `
-    <app-page-header pageName="Tournaments"></app-page-header>
+    <app-page-header pageName="Tournament Rules"></app-page-header>
     <section class="tournament-rules">
       <h1>Tournament Rules</h1>
       <div class="rules-content">
@@ -97,6 +97,6 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
 
   `
 })
-export class TournamentsComponent {
+export class TournamentRulesComponent {
 
 }
