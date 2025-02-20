@@ -137,7 +137,7 @@ import {Component} from "@angular/core";
       </div>
     </div>
 
-    <h2>Warhammer Tournament Badges</h2>
+    <h2>Warhammer Tournament Badges - <a href="https://www.games-explosion.com/" target="_blank">Sponsored by Games Explosion</a></h2>
 
     <div class="warhammer cards">
       <div class="price-card">
@@ -147,17 +147,15 @@ import {Component} from "@angular/core";
         </div>
         <div class="price-amount">
           <span class="price">$85</span>
-          <span>&nbsp;</span>
+          <span><img src="assets/40k.png" class="logo"  alt="Warhammer 40K Logo" /></span>
         </div>
         <div class="price-perks">
           <ul class="perk-list">
+            <li>Same as adult weekend badge</li>
             <li>Warhammer 40K Tournament access</li>
             <li>Warhammer door prizes and giveaways</li>
-            <li>Access to over 500 games</li>
-            <li>Over 75 Play-to-Win Games</li>
-            <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-            <li>Vendor Hall access</li>
-            <li>AdventureCon merch store</li>
+            <li>2000 Point Armies</li>
+            <li>ITC &amp; Lord Marshal's Conference points</li>
           </ul>
         </div>
       </div>
@@ -169,18 +167,15 @@ import {Component} from "@angular/core";
         </div>
         <div class="price-amount">
           <span class="price">$85</span>
-          <span>&nbsp;</span>
+          <span><img src="assets/sigmar.png" class="logo"  alt="Warhammer 40K Logo" /></span>
         </div>
         <div class="price-perks">
           <ul class="perk-list">
+            <li>Same as adult weekend badge</li>
             <li>Warhammer 40K Tournament access</li>
             <li>Warhammer door prizes and giveaways</li>
-            <li>Access to over 500 games</li>
-            <li>Over 75 Play-to-Win Games</li>
-            <li>Tournaments (Crokinole, Kabuto Sumo, Trivia, and more!)</li>
-            <li>Early Event Selection</li>
-            <li>Vendor Hall access</li>
-            <li>AdventureCon merch store</li>
+            <li>2000 Point Armies</li>
+            <li>ITC &amp; Season opener for Great Plains Masters</li>
           </ul>
         </div>
       </div>
