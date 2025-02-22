@@ -13,25 +13,27 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
       >
         <div class="tournament-content">
           <h2>Codenames</h2>
-          <p><strong>Day:</strong> Saturday</p>
-          <p><strong>Time:</strong> 11am</p>
+          <p><strong>Day:</strong> Friday</p>
+          <p><strong>Start time:</strong> 7pm</p>
           <p><strong>Players per team:</strong> 2-3</p>
-          <p><strong>Rounds:</strong> 2</p>
           <p><strong>Total Teams:</strong> 16</p>
-          <a href="#" class="btn">Register Now</a>
+          <p><strong>Format:</strong> Single Elimination</p>
+<!--          <a href="#" class="btn">Register Now</a>-->
         </div>
       </section>
 
       <section
         class="tournament-section"
-        style="background-image: url('assets/crokinole.jpg');"
+        style="background-image: url('assets/crokinole.png');"
       >
         <div class="tournament-content">
           <h2>Crokinole</h2>
           <p><strong>Day:</strong> Saturday</p>
-          <p><strong>Time:</strong> 2pm</p>
+          <p><strong>Start time:</strong> 2pm</p>
+          <p><strong>Players per game:</strong> 2</p>
+          <p><strong>Total players:</strong> 16</p>
           <p><strong>Format:</strong> Single Elimination</p>
-          <a href="#" class="btn">Register Now</a>
+<!--          <a href="#" class="btn">Register Now</a>-->
         </div>
       </section>
 
@@ -41,11 +43,12 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
       >
         <div class="tournament-content">
           <h2>Ticket to Ride</h2>
-          <p><strong>Day:</strong> Sunday</p>
-          <p><strong>Time:</strong> 1pm</p>
+          <p><strong>Day:</strong> Saturday</p>
+          <p><strong>Start time:</strong> 1pm</p>
           <p><strong>Players per game:</strong> 4</p>
-          <p><strong>Rounds:</strong> 2 (Final for top scorers)</p>
-          <a href="#" class="btn">Register Now</a>
+          <p><strong>Total players:</strong> 16</p>
+          <p><strong>Format:</strong> Swiss</p>
+<!--          <a href="#" class="btn">Register Now</a>-->
         </div>
       </section>
 
@@ -56,24 +59,28 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
         <div class="tournament-content">
           <h2>Kabuto Sumo</h2>
           <p>Hosted by AllPlay</p>
-          <p><strong>Day:</strong> Saturday</p>
-          <p><strong>Time:</strong> 3pm</p>
+          <p><strong>Day:</strong> Friday & Saturday</p>
+          <p><strong>Start time:</strong> 12pm</p>
+          <p><strong>Players per game:</strong> 2</p>
+          <p><strong>Total players:</strong> 16</p>
           <p><strong>Format:</strong> Single Elimination</p>
-          <a href="#" class="btn">Register Now</a>
+<!--          <a href="#" class="btn">Register Now</a>-->
         </div>
       </section>
 
       <section
         class="tournament-section"
-        style="background-image: url('assets/images/pocket-samurai.jpg');"
+        style="background-image: url('assets/pocket-samurai.jpg');"
       >
         <div class="tournament-content">
           <h2>Pocket Samurai</h2>
           <p>Hosted by Questing Gentlemen</p>
-          <p><strong>Day:</strong> Sunday</p>
-          <p><strong>Time:</strong> 10am</p>
-          <p><strong>Format:</strong> Single Elimination</p>
-          <a href="#" class="btn">Register Now</a>
+          <p><strong>Day:</strong> Friday & Saturday</p>
+          <p><strong>Start time:</strong> 7pm</p>
+          <p><strong>Players per game:</strong> 2</p>
+          <p><strong>Total players:</strong> 16</p>
+          <p><strong>Format:</strong> Modified Swiss</p>
+<!--          <a href="#" class="btn">Register Now</a>-->
         </div>
       </section>
   `,
@@ -148,9 +155,7 @@ import { PageHeaderComponent } from '../page-header/page-header.component';
         justify-content: flex-start;
 
         .tournament-content {
-          margin-right: auto;
           margin-left: 0;
-          text-align: left;
         }
       }
     }
