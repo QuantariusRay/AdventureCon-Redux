@@ -32,7 +32,7 @@ import {EmailService} from "../email.service";
 
       <h3>Publisher Sponsors</h3>
       <div class="sponsor-list">
-        <a href="https//www.luckyduckgames.com/en"><img src="assets/sponsors/lucky-duck.png" alt="Lucky Duck Games" /></a>
+        <a href="https://www.luckyduckgames.com/en"><img src="assets/sponsors/lucky-duck.png" alt="Lucky Duck Games" /></a>
         <a href="https://www.catalystgamelabs.com/"><img src="assets/sponsors/catalyst-logo.png" alt="Catalyst Labs" /></a>
         <a href="https://www.funko.com/"><img src="assets/sponsors/funko.png" alt="Funko" /></a>
         <a href="https://www.gamelyngames.com/"><img src="assets/sponsors/gamelyn.png" alt="Gamelyn Games" /></a>
@@ -44,11 +44,12 @@ import {EmailService} from "../email.service";
         <a href="https://www.binarycocoa.com/"><img src="assets/sponsors/binary-cocoa.png" alt="Binary Cocoa" /></a>
         <a href="https://www.pocketsamurai.net/"><img src="assets/sponsors/questing-gentlemen.jpg" alt="Questing Gentlemen" /></a>
         <a href="https://mcdavittpublishing.com/"><img src="assets/sponsors/mcdavitt-publishing.png" alt="McDavitt Publishing" /></a>
+        <a href="https://www.brotherwisegames.com/"><img src="assets/sponsors/brotherwise.png" alt="Brotherwise Games" /></a>
       </div>
 
       <h3>Food & Beverage Sponsors</h3>
       <div class="sponsor-list">
-        <a href="https//www.drinkcirkul.com"><img src="assets/sponsors/cirkul.png" alt="Cirkul" /></a>
+        <a href="https://www.drinkcirkul.com"><img src="assets/sponsors/cirkul.png" alt="Cirkul" /></a>
       </div>
     </section>
 
